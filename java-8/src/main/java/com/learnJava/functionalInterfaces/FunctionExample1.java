@@ -1,6 +1,6 @@
 package com.learnJava.functionalInterfaces;
 
-public class FunctionExampl1 {
+public class FunctionExample1 {
 
     public static String performConcat(String str) {
 
