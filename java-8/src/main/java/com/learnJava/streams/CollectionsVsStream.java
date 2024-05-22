@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class CollectionsVsStream {
 
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("adam", "jim", "jenny");
+        List<String> names = List.of("adam", "jim", "jenny");
 
         System.out.println(names.get(0));
 
@@ -16,7 +16,7 @@ public class CollectionsVsStream {
 
         stream.forEach(System.out::println);
 
-        // steam has already being consumed
+        // stream has already being consumed
         // stream.forEach(System.out::println);
     }
 }
