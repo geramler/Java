@@ -20,7 +20,6 @@ public class StreamsMapExample {
                 .collect(toList());         //List<String>
 
         return studentList;
-
     }
 
 
@@ -33,7 +32,6 @@ public class StreamsMapExample {
                 .collect(toSet());          //Set<String>
 
         return studentList;
-
     }
 
     public static void main(String[] args) {
